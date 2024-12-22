@@ -13,6 +13,8 @@ function mainPage() {
     textbox.remove()
     button.remove()
     divs.remove()
-    
+    let iframe = document.createElement('iframe')
+    iframe.src = '/opener/open.html'
+    document.body.appendChild('iframe')
   }
 }
