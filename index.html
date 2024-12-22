@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Nabla&display=swap" rel="stylesheet">
+<style>
+
+.center {
+display:flex;
+position:relative;
+top: 40vh;
+justify-content:center;
+align-items:center;
+}
+
+body {
+height: 10vh;
+font-family: "Nabla", serif;
+font-optical-sizing: auto;
+font-weight: 400;
+font-style: normal;
+font-variation-settings:
+  "EDPT" 1000,
+  "EHLT" 12;
+}
+
+input[type='text'] {
+font-size: 1.2em;
+width: 100%;
+border: 5px solid #ddd;
+background-color: #fff;
+border-radius: 3em;
+font-family: "Roboto Mono", monospace;
+}
+
+input {
+transition: all .3s;
+}
+
+input:hover {
+box-shadow: 0px 2px 5px 1px #0004;
+}
+
+input:active {
+box-shadow: 0px 2px 5px -1px inset #0004;
+}
+
+input[type='checkbox'] {
+width: 3em;
+height: 3em;
+accent-color: #f90;
+}
+
+label {
+font-size: 2em;
+padding: .5em;
+}
+
+button {
+border: 5px solid #ddd;
+border-radius: 3em;
+font-size: 2em;
+background-color: #eee;
+}
+
+</style>
+</head>
+<body>
+<div class="center">
+<input id="i" type="text" onkeydown="ck(event)"></div><br><div class="center"><label for="onw">Open in New Window</label><input type="checkbox" name="onw" id="onw"></div><br>
+<div class="center">
+<button id="s" onclick="openUrl()">Go →</button></div>
+
+<script src="script.js">
+</script>
+
+</body>
+</html>
