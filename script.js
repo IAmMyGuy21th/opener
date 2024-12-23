@@ -11,7 +11,7 @@ const title = newWin.document.createElement('title')
 const favicon = newWin.document.createElement('link')
 favicon.rel = 'icon'
 favicon.type = 'image/x-icon'
-favicon.href = '/favicon.ico'
+favicon.href = 'https://iammyguy21th.github.io/opener/favicon.ico'
 title.innerHTML = 'Home'
 newWin.document.head.appendChild(title)
 newWin.document.head.appendChild(favicon)
