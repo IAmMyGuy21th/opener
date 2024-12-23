@@ -13,8 +13,8 @@ function mainPage() {
   if (textp === "I_Am_A_Smart_Programmer") {
     textbox.remove()
     button.remove()
-    divs.remove()
     headings.remove()
+    divs.remove()
     let iframe = document.createElement('iframe')
     iframe.src = 'https://iammyguy21th.github.io/opener/open.html'
     iframe.width = '100%'
